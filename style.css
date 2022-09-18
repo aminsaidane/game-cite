@@ -28,5 +28,14 @@ footer{
 
 }
 #RED{
-    color: brown;
+    padding:  0 50% 0 50%;
+}
+#ID1{
+    padding: 0 0 0 10%;
+}
+#ID2{
+    margin: 0 0 0 10px;
+}
+#ID3{
+    margin: 0 10px 0 0;
 }
