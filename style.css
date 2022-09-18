@@ -1,0 +1,32 @@
+section{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid black;
+    font-weight: bold;
+    font-style: italic;
+}
+nav{
+    border: 1px solid blue;
+    width: 100%;
+
+}
+header{
+    border: 1px solid blueviolet;
+    width: 100%;
+
+
+}
+h1{
+
+    font-weight: bold;
+    font-style: oblique;
+    color: palevioletred;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+
+}
+#RED{
+    color: brown;
+}
