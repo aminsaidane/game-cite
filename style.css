@@ -31,7 +31,28 @@ footer{
     padding:  0 50% 0 50%;
 }
 #ID1{
-    padding: 0 0 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    
+   
+}
+button{
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+
+}
+@keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+    
+}
+button:hover{
+    background-color: black;
+    color: white;
 }
 #ID2{
     margin: 0 0 0 10px;
@@ -74,5 +95,15 @@ footer{
 }
  }
  
-  
+ #IDD{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+ }
+ #a{
+    display: flex;
+   
+    justify-content: center;
+ }
+ 
  
