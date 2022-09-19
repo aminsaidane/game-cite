@@ -39,3 +39,40 @@ footer{
 #ID3{
     margin: 0 10px 0 0;
 }
+
+ 
+ #id4{ position: relative;
+    left: 40%;
+   
+    
+ }
+ #id5{
+    position: fixed;
+    right: 3%;
+    bottom: 0%;
+  
+
+ }
+ #ID6{
+    position: relative;
+    left: 84%;
+ }
+ @media (max-width:992px){
+    main {
+     font-size: 16px;
+ }
+ 
+  }
+  @media (max-width: 768px){
+    main {
+     font-size: 20px;
+ }
+  }
+ @media (max-width: 567px){
+   main {
+    font-size: 24px;
+}
+ }
+ 
+  
+ 
