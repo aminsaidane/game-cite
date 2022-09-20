@@ -22,17 +22,17 @@
         width="50"
       />
       <h1 id="RED">BLODKING</h1>
-      <ul>
-        <li>
-          <button><a href="#main__about"> about </a></button>
-        </li>
-        <li>
-          <button><a href="#main__gameplay"> gameplay </a></button>
-        </li>
-        <li>
-          <button><a href="#main__diss"> discord </a></button>
-        </li>
-      </ul>
+      <div class="nav__ul">
+        <button  id="nav_button">
+          <a href="#main__about"> about </a>
+        </button>
+
+        <button  id="nav_button">
+          <a href="#main__gameplay"> gameplay </a>
+        </button>
+
+        <button id="nav_button"><a href="#main__diss"> discord </a></button>
+      </div>
     </nav>
     <header>
       <p class="header__p">Game still in progress</p>
@@ -52,7 +52,6 @@
         <figure>
           <img
             src="data:image/png;base64,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"
-            
           />
         </figure>
       </section>
@@ -80,11 +79,11 @@
         </figure>
       </section>
       <section id="main__diss">
-        <p >
+        <p>
           guess what the discord is also not yet ready so just wait ,ein bischen
           geduld bitte
         </p>
-        <figure >
+        <figure>
           <img
             src="data:image/png;base64,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"
             alt=""
@@ -105,7 +104,7 @@
             >
           </li>
         </ul>
-        <p >copyrights by BLODKING</p>
+        <p>copyrights by BLODKING</p>
       </footer>
     </main>
   </body>
