@@ -1,109 +1,90 @@
-section{
-    width: 100%;
-    height: 100vh;
-    border: 1px solid black;
-    font-weight: bold;
-    font-style: italic;
+.first__figure {
+  position: fixed;
+  right: 3%;
+  bottom: 0%;
 }
-nav{
-    border: 1px solid blue;
-    width: 100%;
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid blue;
+  width: 100%;
 }
-header{
-    border: 1px solid blueviolet;
-    width: 100%;
+h1 {
+  font-weight: bold;
+  font-style: oblique;
+  color: purple;
+}
+section {
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+  font-weight: bold;
+  font-style: italic;
+}
+header {
+  border: 1px solid blueviolet;
+  width: 100%;
+}
+.header__figure {
+  position: relative;
+  left: 84%;
+}
 
+footer {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
 
+  align-items: center;
 }
-h1{
 
-    font-weight: bold;
-    font-style: oblique;
-    color: palevioletred;
+button {
+  animation: float 2000ms infinite alternate-reverse;
+  transition: all 300ms;
 }
-footer{
-    background-color: black;
-    color: aliceblue;
 
+button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
 }
-#RED{
-    padding:  0 50% 0 50%;
+#id4 {
+  position: relative;
+  left: 40%;
 }
-#ID1{
-    display: flex;
-    justify-content: flex-end;
-    
-   
+.gamplay__figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-button{
-    animation: float 2000ms infinite alternate-reverse;
-    transition: all 300ms;
-
+#main__diss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 @keyframes float {
-    0% {
-      transform: translateY(0);
-    }
-    100% {
-        transform: translateY(10px);
-    }
-    
-}
-button:hover{
-    background-color: black;
-    color: white;
-}
-#ID2{
-    margin: 0 0 0 10px;
-}
-#ID3{
-    margin: 0 10px 0 0;
-}
-
- 
- #id4{ position: relative;
-    left: 40%;
-   
-    
- }
- #id5{
-    position: fixed;
-    right: 3%;
-    bottom: 0%;
-  
-
- }
- #ID6{
-    position: relative;
-    left: 84%;
- }
- @media (max-width:992px){
-    main {
-     font-size: 16px;
- }
- 
+  0% {
+    transform: translateY(0);
   }
-  @media (max-width: 768px){
-    main {
-     font-size: 20px;
- }
+  100% {
+    transform: translateY(10px);
   }
- @media (max-width: 567px){
-   main {
+}
+@media (max-width: 992px) {
+  main {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  main {
+    font-size: 20px;
+  }
+}
+@media (max-width: 567px) {
+  main {
     font-size: 24px;
+  }
 }
- }
- 
- #IDD{
-    display: flex;
-    align-items: center;
-    justify-content:space-around;
- }
- #a{
-    display: flex;
-   
-    justify-content: center;
- }
- 
- 
