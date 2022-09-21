@@ -1,41 +1,81 @@
+*{padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 40px;
+  background-color: white;
+}
+
+p{
+  font-size: large;
+  font-style: italic;
+}
 .first__figure {
   position: fixed;
   right: 3%;
   bottom: 0%;
 }
-
-nav {
+nav { background-color: black;
+ padding: 20px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  border: 1px solid blue;
+  color: purple;
+
+
+
+  
  
+}
+.div__nav{
+display: flex;
+align-items: center;
+}
+.nav__ul{ display: flex;
+  list-style-type: none;
+  
 }
 h1 {
   font-weight: bold;
   font-style: oblique;
   color: purple;
+  padding-left: 30px;
 }
 #nav_button{
   margin: 10px;
 }
+header{background-color: black;
+  color: purple;
+  width: 100%;
+padding: 20px;}
+  .header__figure {
+    display: flex;
+    justify-content: flex-end;
+   }
+   
 section {
+  background-color: black;
   width: 100%;
   height: 100vh;
   border: 1px solid black;
   font-weight: bold;
   font-style: italic;
+  padding: 20px;
+ 
 }
-header {
-  border: 1px solid blueviolet;
-  width: 100%;
-}
-.header__figure {
- display: flex;
- justify-content: flex-end;
-}
+.section__row{ 
+  margin: 0 auto;
+  border: none;
+  background-color:purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
 
+}
 footer {
   background-color: black;
   color: aliceblue;
@@ -48,23 +88,55 @@ footer {
 button {
   animation: float 2000ms infinite alternate-reverse;
   transition: all 300ms;
+  background-color:purple;
+  ;
 }
 
 button:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
+#main__about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about__figure{
+  padding: 40px;
+}
+#main__gameplay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .gamplay__figure {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  padding: 100px 16px 0 0;
 }
-#main__diss {
+.diss__row {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: column-reverse ;
   justify-content: center;
+ 
 }
+.diss__row figure{
+  padding: 40px;
+}
+.ul__footer{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  
+
+}
+.li__footer{
+  margin: 10px;
+  color: white;
+}
+#ID8{ padding: 24px; }
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -73,18 +145,52 @@ button:hover {
     transform: translateY(10px);
   }
 }
-@media (max-width: 992px) {
-  body {
-    font-size: 16px;
-  }
-}
+
+  
+
 @media (max-width: 768px) {
   body  {
     font-size: 20px;
-  }
 }
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.nav__ul{
+  display: none;
+ 
+}
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gamplay__figure{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+iframe{
+  width: 300px;
+}
+#main__diss{
+  padding-top: 40px;
+}
+
+
+
+
+}
+
+
+
+
+
 @media (max-width: 567px) {
   body {
     font-size: 24px;
   }
-}
+  .nav__ul{
+    padding: left 50px; 
+} }
